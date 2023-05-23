@@ -18,7 +18,6 @@ function App() {
       <NavBar />
       <Home />
       <Routes>
-        <Route path='/' element={<Home />}/>
         <Route path='/recipes' element={<Recipes />}/>
         <Route path='/recipes/:recipeId' element={<RecipeDatails />}/>
       </Routes>
