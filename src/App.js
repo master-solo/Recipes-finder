@@ -16,6 +16,7 @@ function App() {
     <Context.Provider value={{loading, setLoading}}>
       <Router>
       <NavBar />
+      <Route path='/' element={<Home />}/>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/recipes' element={<Recipes />}/>
