@@ -16,11 +16,11 @@ function App() {
     <Context.Provider value={{loading, setLoading}}>
       <Router>
       <NavBar />
-      <Home />
       <Routes>
-        <Route path='/recipes' element={<Recipes />}/>
-        <Route path='/recipes/:recipeId' element={<RecipeDatails />}/>
-      </Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/recipes' element={<Recipes />}/>
+          <Route path='/recipes/:recipeId' element={<RecipeDatails />}/>
+        </Routes>
     </Router>
     </Context.Provider>
   );
