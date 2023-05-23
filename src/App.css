@@ -1,0 +1,71 @@
+.bg-image {
+  position: relative;
+  background: linear-gradient(rgba(8, 8, 8, 0.2), rgba(8, 8, 8, 0.2)), url('https://assets3.thrillist.com/v1/image/3120322/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70');
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-context {
+  color: white;
+  letter-spacing: 10px;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  padding-top: 110px !important;
+  padding-bottom: 20px !important;
+}
+
+.search-heading {
+  font-size: 30px;
+  margin-bottom: 16px !important;
+}
+
+.deatilsPageContent {
+  padding-top: 110px !important;
+}
+
+.loader-con {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-loader {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border:8px solid;
+  border-color:#0c047a #0000;
+  animation:s1 1s infinite;
+}
+@keyframes s1 {to{transform: rotate(.5turn)}}
+
+.d-img {
+  width: 500px;
+}
+
+@media (max-width: 1024px) {
+  .d-img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 464px) {
+  .d-img {
+    width: 300px;
+  }
+}
