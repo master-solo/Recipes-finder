@@ -9,7 +9,7 @@ const NavBar = () => {
         <img src={logo} alt="logo" style={{width: 120}}/>
       </Menu.Item>
       <Menu.Item name='Home' as={Link} to='/Recipes-finder' />
-      <Menu.Item name='Recipes' as={Link} to='/Recipes-finder/recipes' />
+      <Menu.Item name='Recipes' as={Link} to='/recipes' />
     </Menu>
   )
 };

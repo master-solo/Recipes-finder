@@ -10,7 +10,7 @@ const Home = () => {
           content="SEARCH RECIPES"
           color="primary"
           as={Link}
-          to='/Recipes-finder/recipes'
+          to='/recipes'
           size="big"
         />
       </Header>

@@ -16,8 +16,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route exact path="/Recipes-finder" element={<Home />} />
-          <Route path="/Recipes-finder/recipes" element={<Recipes />} />
-          <Route path="/Recipes-finder/recipes/:recipeId" element={<RecipeDatails />} />
+          <Route path="/recipes" element={<Recipes />} />
+          <Route path="/recipes/:recipeId" element={<RecipeDatails />} />
         </Routes>
       </Router>
     </Context.Provider>
